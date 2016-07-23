@@ -269,7 +269,7 @@ extern const uint32_t ExtRateIn;
 #endif
 
 /* Family specific IRQ handler alias list */
-#if (defined(CHIP_LPC11AXX) || defined(CHIP_LPC11EXX) || defined(CHIP_LPC11UXX))
+#if (defined(CHIP_LPC11AXX) || defined(CHIP_LPC11EXX))
 #define UART_IRQHandler      USART_IRQHandler
 #define USART0_IRQHandler    USART_IRQHandler
 #endif
